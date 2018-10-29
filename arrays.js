@@ -26,14 +26,14 @@ function destructivelyAddElementToEndOfArray(array, element)  {
   }
   
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.slice(1);
+  return array.unshift();
 }
    
 
-function removeElementFromBeginningOfArray(array)', () => {
-    it('removes the first element from the array', () => {
-      expect(removeElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
-    })
+function removeElementFromBeginningOfArray(array){
+  
+} 
+    
 
     it('does not alter the original array', () => {
       const array = [1, 2, 3];
